@@ -1,0 +1,83 @@
+{
+  "best_model": "LogReg",
+  "cv_results": {
+    "LogReg": {
+      "best_params": {
+        "clf__C": 0.1
+      },
+      "best_cv_f1_macro": 0.23306992158461162
+    },
+    "LinearSVC(calibrated)": {
+      "best_params": {
+        "clf__estimator__C": 0.1
+      },
+      "best_cv_f1_macro": 0.23169963417594225
+    }
+  },
+  "train": {
+    "accuracy": 0.2675,
+    "precision_macro": 0.26094773337333255,
+    "recall_macro": 0.26821274627338204,
+    "f1_macro": 0.2566322389560939
+  },
+  "test": {
+    "accuracy": 0.27166666666666667,
+    "precision_macro": 0.277599120189846,
+    "recall_macro": 0.27206699634993525,
+    "f1_macro": 0.25978675003720547,
+    "roc_auc_ovr": {
+      "Bacteria": 0.5046551926691729,
+      "Human": 0.5264888888888889,
+      "Plant": 0.5396062441405378,
+      "Virus": 0.5004985193232042
+    },
+    "pr_auc_ovr": {
+      "Bacteria": 0.2914504746944846,
+      "Human": 0.28054952448347326,
+      "Plant": 0.2576069341800926,
+      "Virus": 0.25551420171498807
+    }
+  },
+  "classification_report": {
+    "Bacteria": {
+      "precision": 0.3076923076923077,
+      "recall": 0.13157894736842105,
+      "f1-score": 0.18433179723502305,
+      "support": 152.0
+    },
+    "Human": {
+      "precision": 0.2698412698412698,
+      "recall": 0.4533333333333333,
+      "f1-score": 0.3383084577114428,
+      "support": 150.0
+    },
+    "Plant": {
+      "precision": 0.28125,
+      "recall": 0.24161073825503357,
+      "f1-score": 0.259927797833935,
+      "support": 149.0
+    },
+    "Virus": {
+      "precision": 0.25161290322580643,
+      "recall": 0.26174496644295303,
+      "f1-score": 0.2565789473684211,
+      "support": 149.0
+    },
+    "accuracy": 0.27166666666666667,
+    "macro avg": {
+      "precision": 0.277599120189846,
+      "recall": 0.27206699634993525,
+      "f1-score": 0.25978675003720547,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.27773665637677736,
+      "recall": 0.27166666666666667,
+      "f1-score": 0.259540344785985,
+      "support": 600.0
+    }
+  },
+  "confusion_image": "c:\\\\Users\\\\bhara\\\\Downloads\\\\ML\\\\2\\\\outputs\\class_label_confusions.png",
+  "confusion_normalized_image": "c:\\\\Users\\\\bhara\\\\Downloads\\\\ML\\\\2\\\\outputs\\class_label_confusions_normalized.png",
+  "roc_pr_image": "c:\\\\Users\\\\bhara\\\\Downloads\\\\ML\\\\2\\\\outputs\\class_label_roc_pr.png"
+}

@@ -1,0 +1,8 @@
+"Feature","Description (Biological / ML relevance)"
+"GC_Content","DNA stability, mutation tendency"
+"AT_Content","Complements GC, affects melting temperature"
+"Num_A/T/C/G","Base composition, species signal"
+"kmer3_freq","Short motif patterns, gene regulation signal"
+"Mutation_Flag","Mutation status, risk factor"
+"Class_Label","Bacteria/Human/Plant/Virus (target)"
+"Disease_Risk","High/Medium/Low (target)"
